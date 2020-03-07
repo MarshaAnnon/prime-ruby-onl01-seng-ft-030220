@@ -1,9 +1,8 @@
 def prime?(int)
-  for x in 2..num-1
-  if num % x == 0
-  return false
+  int(0..100)
+  if int.prime? 
+    return true
   else
-  return true
-  end
+    return false
 end
 end
