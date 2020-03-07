@@ -3,7 +3,7 @@ def prime?(num)
     if num < 0
     return false
     elsif range.any? {|x| num % x == 0}
-      return false
+      return true
     else
       return false
     end
