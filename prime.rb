@@ -1,4 +1,4 @@
 def prime?(int)
-  int == (0..100)
-  (0..100).include? prime?
+  return false if n < 2
+    (2..n/2).none?{|i| n % i == 0}
 end
