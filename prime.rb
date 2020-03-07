@@ -1,9 +1,9 @@
 def prime?(num)
-  num = (0..100)
-  if num.prime?
-    return true
-  else
-    return false
-end
-  num
+  return false if num < 2
+    range = 2..num-1
+      range.each do |x|
+      return false if num % x == 0
+      end
+      true
+    end
 end
