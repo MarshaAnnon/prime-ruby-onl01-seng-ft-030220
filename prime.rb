@@ -1,6 +1,6 @@
-def prime?(int)
+def prime?(num)
   int(0..100)
-  if int.prime?
+  if num.prime?
     return true
   else
     return false
