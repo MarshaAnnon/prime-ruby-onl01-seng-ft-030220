@@ -2,9 +2,9 @@ def prime?(num)
   range = (2..num-1)
     range.any? do |x|
       if num % x == 0
-        return true
+        return false
     else
-       false
+       true
       end
     end
 end
