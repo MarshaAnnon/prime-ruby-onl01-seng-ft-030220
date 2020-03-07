@@ -1,5 +1,5 @@
 def prime?(num)
-  range.to_a = (2..num-1)
+  range = (2..num-1).to_a
     if num <= 0
       return false
     elsif range.any? {|x| num % x == 0}
