@@ -1,6 +1,6 @@
 def prime?(num)
   range = (2..num-1)
-    range do |x|
+    range.any? do |x|
       if num % x == 0
         return false
     else
