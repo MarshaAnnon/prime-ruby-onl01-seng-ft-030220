@@ -1,7 +1,7 @@
 def prime?(num)
   range = (2..num-1)
     if num < 0
-      return false
+      return true
     elsif range.any? {|x| num % x == 0}
       return false
     else
