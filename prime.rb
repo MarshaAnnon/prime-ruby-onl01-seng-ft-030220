@@ -3,8 +3,8 @@ def prime?(num)
     range.any? do |x|
       if num % x == 0
         return false
-    else
-       true
+      else
+        true
       end
     end
 end
